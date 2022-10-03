@@ -32,7 +32,7 @@
 -Flash cards will start at addition, subtraction, multiplication, and division.
 -If you answer incorrectly, you lose a point.
 
-###**_Resources_**
+### **_Resources_**
 
 ##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/invite/b/pTyj4Yxi/a03ddbb62c194f2d7350257f72b04b66/math-flashcards-project).
 
@@ -63,11 +63,7 @@
 
 ### **_Credits_**
 
-##### Images: [Google Search](https://www.google.com/search?q=clipart+math+cartoon&tbm=isch&hl=en&sa=X&ved=2ahUKEwjAm6SRhMP6AhVQFVMKHVk7CpMQrNwCKAB6BQgBEJ8C&biw=1304&bih=891#imgrc=a0i4ZAv1zpoXQM)
-
-()
-[Adobe Stock]
-()
+##### Images: [Google Search](www.google.com/images)
 
 ##### Markdown Guide: [ia.net](https://ia.net/writer/support/general/markdown-guide)
 
