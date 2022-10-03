@@ -1,0 +1,12 @@
+html{
+    padding:10px;
+    margin: 50px;
+    background-color: black;
+}
+body, button{
+    font-family: 'Bangers', 'Comic Sans', 'Serif';
+    font-size: 30px;
+    color: limegreen;
+    text-align: center;
+    justify-content: center;
+    }
