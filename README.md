@@ -16,7 +16,7 @@
 
 ### **_Technologies Used_**
 
-- Technology 1
+- Javascript
 - Technology 2
   - Sub-item 1
   - Sub-item 2
@@ -44,11 +44,11 @@
 
 ##### image header 1
 
-![Smile](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.PDlm3trgAkY6pGPcbRt4SQHaEK%26pid%3DApi&f=1)
+![Pending]()
 
 ##### image header 2
 
-![Scared](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.buntINTHFLyDODyMKXNYcgHaEK%26pid%3DApi&f=1)
+![Pending]()
 
 ---
 
@@ -63,7 +63,11 @@
 
 ### **_Credits_**
 
-##### Funny Images: [DuckDuckGo Search](http://www.duckduckgo.com)
+##### Images: [Google Search](https://www.google.com/search?q=clipart+math+cartoon&tbm=isch&hl=en&sa=X&ved=2ahUKEwjAm6SRhMP6AhVQFVMKHVk7CpMQrNwCKAB6BQgBEJ8C&biw=1304&bih=891#imgrc=a0i4ZAv1zpoXQM)
+
+(https://img.freepik.com/free-vector/cartoon-math-word-with-math-symbols_1308-97111.jpg?w=996&t=st=1664764847~exp=1664765447~hmac=8bf04e43aac97040f3c9d500ef7bd985be78cd060e70b53477c240bcca2e28fd)
+[Adobe Stock]
+(https://as2.ftcdn.net/v2/jpg/03/16/51/69/1000_F_316516973_azxa0i6q6XGu3yFDgWQGfikBMyF0Isdj.jpg)
 
 ##### Markdown Guide: [ia.net](https://ia.net/writer/support/general/markdown-guide)
 
