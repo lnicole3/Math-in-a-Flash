@@ -38,7 +38,7 @@ body, button{
         display: inline;
       }
 
-      #answer{
+      #userAnswer{
         font-size:100px;
         font-family: 'Bangers', 'Comic Sans', 'Serif';
         color:limegreen;
