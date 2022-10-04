@@ -1,6 +1,6 @@
 html{
     padding:10px;
-    margin: 50px;
+    margin: 10px;
     background-color: black;
 }
 body, button{
@@ -10,3 +10,51 @@ body, button{
     text-align: center;
     justify-content: center;
     }
+    .container {
+        display: grid;
+        grid-template-columns: (3, 1fr);
+        gap: 20px;
+        grid-auto-rows: minmax(100px, auto);
+      }
+      .title {
+        grid-column: 1 / 3;
+        grid-row: 1;
+      }
+      .imageLeft {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+        width: 20px;
+        height: 20px;
+      }
+      .flash {
+        grid-column: 1 /span 3;
+        grid-row: 2/ 5;
+        background-color:white;
+        font-size: 200px;
+        color:blue;   
+      }
+
+      .card h1{
+        display: inline;
+      }
+
+      #answer{
+        font-size:100px;
+        font-family: 'Bangers', 'Comic Sans', 'Serif';
+        color:limegreen;
+      }
+
+      .tools {
+        grid-column: 4 span ;
+        grid-row: 2;
+        background-color: white;
+        font-size:45px;
+      }
+      .score {
+        grid-column: 7 span;
+        grid-row: 6;
+        background-color:aqua;
+        color:black;
+        font-size:75px;
+      }
+  
