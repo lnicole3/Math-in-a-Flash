@@ -7,7 +7,7 @@ let userAnswer
 let equation = document.querySelector('card')
 let answer
 const button = document.getElementById('submit')
-let score = 9
+let score = 31
 const scoreboard = document.querySelector('.score')
 scoreboard.innerHTML = score
 let userInput = document.getElementById('userAnswer')
@@ -29,16 +29,16 @@ const generateEquation = () => {
 
   if (score > 30) {
     answer = parseInt(num1.innerText) / parseInt(num2.innerText)
-    console.log('division')
+    op.innerText = '/'
   } else if (score > 20) {
     answer = parseInt(num1.innerText) * parseInt(num2.innerText)
-    console.log('multiplication')
+    op.innerText = 'x'
   } else if (score > 10) {
     answer = parseInt(num1.innerText) - parseInt(num2.innerText)
-    console.log('subtraction')
+    op.innerText = '-'
   } else {
     answer = parseInt(num1.innerText) + parseInt(num2.innerText)
-    console.log('addition')
+    op.innerText = '+'
   }
 }
 
