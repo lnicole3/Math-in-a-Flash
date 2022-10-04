@@ -6,8 +6,9 @@ let userAnswer
 let equation = document.querySelector('card')
 let answer
 const button = document.getElementById('submit')
-let evalScore
 let score = 0
+const scoreboard = document.querySelector('.score')
+let userInput = document.getElementById('userAnswer')
 //ARRAYS AND OBJECTS
 
 //EVENT LISTENERS
@@ -19,20 +20,23 @@ const generateEquation = () => {
   answer = parseInt(num1.innerText) + parseInt(num2.innerText)
 }
 
-const drawScore = () => {}
-
 //->input answer
 const evalAnswer = () => {
   if (answer === userAnswer) {
-    score = +10
+    score += 1
+    scoreboard.innerHTML = 'score: ' + score
+    userInput.value = ''
   } else {
-    score = -10
+    score -= 1
+    scoreboard.innerHTML = 'score: ' + score
+    userInput.value = ''
   }
+
   generateEquation()
 }
 
 button.addEventListener('click', () => {
-  userAnswer = parseInt(document.getElementById('userAnswer').value)
+  userAnswer = parseInt(userInput.value)
   evalAnswer()
 })
 

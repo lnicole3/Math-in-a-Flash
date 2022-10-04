@@ -44,13 +44,14 @@ body, button{
         color:limegreen;
       }
 
-      .tools {
+      .score {
         grid-column: 4 span ;
         grid-row: 2;
         background-color: white;
         font-size:45px;
+        color: black; 
       }
-      .score {
+      .tools {
         grid-column: 7 span;
         grid-row: 6;
         background-color:aqua;
