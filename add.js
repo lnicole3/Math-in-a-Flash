@@ -9,25 +9,37 @@ let answer
 const button = document.getElementById('submit')
 let score = 9
 const scoreboard = document.querySelector('.score')
+scoreboard.innerHTML = score
 let userInput = document.getElementById('userAnswer')
-let equationType = 'addition'
 
 //FUNCTIONS
+const generateRandomNumber = () => {
+  let num = Math.floor(Math.random() * 11) + 1
+  return num
+}
 
 const generateEquation = () => {
-  num1.innerText = Math.floor(Math.random() * 11) + 1
-  num2.innerText = Math.floor(Math.random() * 11) + 1
-
-  if (equationType === 'addition') {
-    answer = parseInt(num1.innerText) + parseInt(num2.innerText)
-  } else if (equationType === 'subtraction') {
-    answer = parseInt(num1.innerText) - parseInt(num2.innerText)
-  } else if (equationType === 'multiplication') {
-    answer = parseInt(num1.innerText) * parseInt(num2.innerText)
-  } else if (equationType === 'division') {
-    answer = parseInt(num1.innerText) / parseInt(num2.innerText)
+  firstNumber = generateRandomNumber()
+  secondNumber = generateRandomNumber()
+  while (secondNumber > firstNumber) {
+    secondNumber = generateRandomNumber()
   }
-  console.log(equationType)
+  num1.innerText = firstNumber
+  num2.innerText = secondNumber
+
+  if (score > 30) {
+    answer = parseInt(num1.innerText) / parseInt(num2.innerText)
+    console.log('division')
+  } else if (score > 20) {
+    answer = parseInt(num1.innerText) * parseInt(num2.innerText)
+    console.log('multiplication')
+  } else if (score > 10) {
+    answer = parseInt(num1.innerText) - parseInt(num2.innerText)
+    console.log('subtraction')
+  } else {
+    answer = parseInt(num1.innerText) + parseInt(num2.innerText)
+    console.log('addition')
+  }
 }
 
 //->input answer
@@ -48,20 +60,6 @@ button.addEventListener('click', () => {
   evalAnswer()
 })
 
-generateEquation()
-evalAnswer()
-
-const nextLevel = () => {
-  if (score > 30) {
-    equationType = 'division'
-  } else if (score > 20) {
-    equationType = 'multiplication'
-  } else if (score > 10) {
-    equationType = 'subtraction'
-  }
-}
-
-nextLevel()
 generateEquation()
 
 //     nextLevelbutton.innerText =
