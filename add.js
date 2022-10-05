@@ -7,7 +7,7 @@ let userAnswer
 let equation = document.querySelector('card')
 let answer
 const button = document.getElementById('submit')
-let score = 31
+let score = 0
 const scoreboard = document.querySelector('.score')
 scoreboard.innerHTML = score
 let userInput = document.getElementById('userAnswer')
