@@ -1,4 +1,4 @@
-# Level Up in a Flash
+# Math in a Flash
 
 ## Date: 9/29/2022
 
