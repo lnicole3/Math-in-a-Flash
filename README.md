@@ -4,23 +4,21 @@
 
 ### By: LaShelle Rauseo
 
-#### [Website]() | [GitHub](https://github.com/lnicole3) | [Facebook]() | [blank]()
+#### [Website](my_in_a_flash.surge.sh) | [GitHub](https://github.com/lnicole3) |
 
 ---
 
 ### **_Description_**
 
-#### This game is for elementary school children to solve different math equations while having fun. They will start at addition and subtraction, then progress to multiplication and division.
+#### This game is for elementary school children to solve different math equations while having fun. They will start at addition and subtraction, then progress to multiplication.
 
 ---
 
 ### **_Technologies Used_**
 
 - Javascript
-- Technology 2
-  - Sub-item 1
-  - Sub-item 2
-- Technology 3
+- HTML
+- CSS
 
 ---
 
@@ -32,11 +30,19 @@
 -Flash cards will start at addition, subtraction, multiplication, and division.
 -If you answer incorrectly, you lose a point.
 
+HOW TO PLAY:
+YOU WILL BE PRESENTED WITH A FLASH CARD WITH A MATH EQUATION.
+IF YOU ANSWER CORRECTLY, YOU EARN 2 POINTS. IF YOU ANSWER INCORRECTLY, YOU LOSE 2 POINTS.
+ONCE YOU EARN 10 POINTS YOU MAY MOVE TO THE NEXT LEVEL. THE LEVELS ARE:
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+
 ### **_Resources_**
 
-##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/invite/b/pTyj4Yxi/a03ddbb62c194f2d7350257f72b04b66/math-flashcards-project).
+##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/invite/sei377/4d8ac4af2cdbab21d55004568dfdd102).
 
-##### The project itself was deployed and can be viewed [here](URL).
+##### The project itself was deployed and can be viewed [here](my_in_a_flash.surge.sh).
 
 ---
 
@@ -68,5 +74,7 @@
 ##### Markdown Guide: [ia.net](https://ia.net/writer/support/general/markdown-guide)
 
 ##### Markdown Cheatsheet: [GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
+##### Coding Resources: [W3Schools](https://www.w3schools.com/) | [mdn\_](https://developer.mozilla.org/en-US/)
 
 ---

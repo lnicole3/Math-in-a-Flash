@@ -43,7 +43,6 @@ const generateEquation = () => {
   }
 }
 
-//->input answer
 const evalAnswer = () => {
   if (answer === userAnswer) {
     score += 2
