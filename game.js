@@ -28,9 +28,10 @@ const generateEquation = () => {
   num2.innerText = secondNumber
 
   if (score > 30) {
-    answer = parseInt(num1.innerText) / parseInt(num2.innerText)
-    op.innerText = '/'
-  } else if (score > 20) {
+    alert('You are a math whiz! Come play again tomorrow!')
+    window.location.href = 'index.html'
+  }
+  if (score > 20) {
     answer = parseInt(num1.innerText) * parseInt(num2.innerText)
     op.innerText = 'x'
   } else if (score > 10) {
@@ -45,12 +46,12 @@ const generateEquation = () => {
 //->input answer
 const evalAnswer = () => {
   if (answer === userAnswer) {
-    score += 1
+    score += 2
     generateEquation()
     scoreboard.innerHTML = score
     userInput.value = ''
   } else {
-    score -= 1
+    score -= 2
     scoreboard.innerHTML = score
     userInput.value = ''
   }
@@ -61,9 +62,3 @@ button.addEventListener('click', () => {
 })
 
 generateEquation()
-
-//     nextLevelbutton.innerText =
-//       'Congratulations! You made it to the Level 2!  Keep up the good work!'
-//     document.body.appendChild(nextLevelbutton)
-//     nextLevelbutton.innerHTML = 'HOORAY'
-//     nextLevelbutton.onclick = <a href="subtract.html">SUBTRACT</a>

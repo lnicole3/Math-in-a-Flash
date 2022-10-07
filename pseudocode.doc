@@ -1,6 +1,2 @@
-splash page
-title
-rules
-button "play"
-goes to game page
-first card is shown
+grab operator element with js
+op.innerText =
