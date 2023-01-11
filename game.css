@@ -10,7 +10,7 @@ html{
 body {
     display: flex;
     font-family: 'Balsamiq Sans', 'Comic Sans', 'Serif';
-    font-size: 100px;
+    font-size: 50px;
     color: limegreen;
     text-align: center;
     justify-content: center;
